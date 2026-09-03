@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Rizky Baihakky — Sistem Informasi, Enterprise Architecture, IT Governance, Business Analysis." />
+  <meta name="author" content="Rizky Baihakky" />
+  <title>Rizky Baihakky — Enterprise Architecture &amp; Business Analyst</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ PROGRESS BAR ============ -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-text">Rizky <span class="gold">Baihakky</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Project</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO / PROFILE ============ -->
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="container hero-inner">
+
+        <div class="hero-text reveal-left">
+          <p class="eyebrow">Halo, perkenalkan saya</p>
+          <h1 class="hero-name">Rizky <span class="gold">Baihakky</span></h1>
+          <h2 class="hero-role">
+            <span class="typed" id="typed"></span><span class="caret"></span>
+          </h2>
+          <p class="hero-desc">
+            Lulusan Sistem Informasi Telkom University yang berfokus pada
+            <strong>Enterprise Architecture</strong>, <strong>IT Governance</strong>,
+            <strong>Risk Management</strong>, dan <strong>Business Analysis</strong> —
+            menyelaraskan teknologi dengan kebutuhan dan tujuan bisnis.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Lihat Project</a>
+            <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+          </div>
+
+          <ul class="hero-meta">
+            <li><span class="gold">📍</span> Jakarta Barat, Indonesia</li>
+            <li><span class="gold">🎓</span> Alumni Telkom University</li>
+            <li><span class="gold">✦</span> BNSP Enterprise Architecture</li>
+          </ul>
+        </div>
+
+        <div class="hero-photo">
+          <div class="photo-frame" id="photoFrame">
+            <div class="photo-ring"></div>
+            <!-- GANTI FOTO DI SINI: taruh file foto di assets/img/rizky.jpg -->
+            <img src="assets/img/rizky.jpg" alt="Foto Rizky Baihakky" id="profilePhoto" />
+            <div class="photo-placeholder" id="photoPlaceholder">
+              <span class="ph-icon">👤</span>
+              <span class="ph-text">Taruh foto di<br /><code>assets/img/rizky.jpg</code></span>
+            </div>
+          </div>
+          <div class="photo-badge" id="photoBadge">
+            <span class="dot"></span> Open to Opportunity
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal-left">
+          <p class="section-tag">Tentang Saya</p>
+          <h2 class="section-title">About <span class="gold">Me</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal-left" data-delay="100">
+            <p>
+              Saya adalah lulusan <strong>Telkom University</strong>, Program Studi Sistem Informasi,
+              dengan ketertarikan pada bidang Enterprise Architecture, IT Governance,
+              Risk Management, dan Business Analysis. Saya memiliki minat dalam memahami bagaimana
+              teknologi dapat diselaraskan dengan kebutuhan dan tujuan bisnis untuk mendukung
+              efektivitas serta keberlanjutan organisasi.
+            </p>
+            <p>
+              Melalui pengalaman akademik dan proyek <em>Enterprise Architecture</em>, saya terbiasa
+              menganalisis kebutuhan bisnis, mengidentifikasi kesenjangan antara kondisi
+              <em>As-Is</em> dan <em>To-Be</em>, serta merancang arah pengembangan teknologi yang
+              selaras dengan proses dan tujuan organisasi.
+            </p>
+            <p>
+              Saya memiliki kemampuan analitis, pemecahan masalah, komunikasi, dan adaptasi yang baik,
+              serta motivasi untuk terus mengembangkan kompetensi dalam mengintegrasikan aspek
+              bisnis, teknologi, tata kelola, dan risiko.
+            </p>
+
+            <div class="about-info">
+              <div class="info-item"><span class="info-label">Nama</span><span class="info-value">Rizky Baihakky</span></div>
+              <div class="info-item"><span class="info-label">Tanggal Lahir</span><span class="info-value">19 April 2004</span></div>
+              <div class="info-item"><span class="info-label">Domisili</span><span class="info-value">Jakarta Barat</span></div>
+              <div class="info-item"><span class="info-label">Email</span><span class="info-value">kiki.baihaky1944@gmail.com</span></div>
+              <div class="info-item"><span class="info-label">Telepon</span><span class="info-value">087880497439</span></div>
+              <div class="info-item"><span class="info-label">Bahasa</span><span class="info-value">Indonesia, Inggris</span></div>
+            </div>
+          </div>
+
+          <aside class="about-side reveal-right" data-delay="200">
+            <div class="stat-card">
+              <span class="stat-num" data-count="3">0</span>
+              <span class="stat-label">Pengalaman Magang &amp; Proyek</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num" data-count="9">0</span>
+              <span class="stat-label">Sertifikasi Profesional</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num" data-count="3" data-suffix=" thn">0</span>
+              <span class="stat-label">Pengalaman Organisasi</span>
+            </div>
+            <div class="stat-card highlight">
+              <span class="stat-num">S1</span>
+              <span class="stat-label">Alumni Sistem Informasi<br />Telkom University</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-head reveal-left">
+          <p class="section-tag">Pendidikan</p>
+          <h2 class="section-title">Edu<span class="gold">cation</span></h2>
+        </div>
+
+        <div class="edu-card reveal-left" data-delay="100">
+          <div class="edu-top">
+            <div>
+              <h3 class="edu-school">Telkom University</h3>
+              <p class="edu-degree">Sarjana — Program Studi Sistem Informasi</p>
+            </div>
+            <div class="edu-side">
+              <span class="pill">2022 — 2026</span>
+            </div>
+          </div>
+
+          <p class="edu-note">
+            Alumni Program Studi Sistem Informasi Telkom University dengan fokus pada
+            Enterprise Architecture, tata kelola, dan analisis proses bisnis.
+          </p>
+        </div>
+
+        <h3 class="sub-head reveal-left" data-delay="150">Sertifikasi</h3>
+        <div class="cert-grid">
+          <div class="cert-card reveal-left" data-delay="100">
+            <span class="cert-issuer">BNSP</span>
+            <p class="cert-name">Kompeten dalam “Enterprise Architecture”</p>
+            <span class="cert-year">2025</span>
+          </div>
+          <div class="cert-card reveal-left" data-delay="150">
+            <span class="cert-issuer">Bank BRI</span>
+            <p class="cert-name">Peserta Brilian Internship Program</p>
+            <span class="cert-year">2025</span>
+          </div>
+          <div class="cert-card reveal-left" data-delay="200">
+            <span class="cert-issuer">MySkill</span>
+            <p class="cert-name">Basic Formula in Microsoft Excel</p>
+            <span class="cert-year">2026</span>
+          </div>
+          <div class="cert-card reveal-left" data-delay="250">
+            <span class="cert-issuer">MySkill</span>
+            <p class="cert-name">Data Cleansing, Sort &amp; Filter in Microsoft Excel</p>
+            <span class="cert-year">2026</span>
+          </div>
+          <div class="cert-card reveal-left" data-delay="300">
+            <span class="cert-issuer">MySkill</span>
+            <p class="cert-name">Forecasting Time Series</p>
+            <span class="cert-year">2026</span>
+          </div>
+          <div class="cert-card reveal-left" data-delay="350">
+            <span class="cert-issuer">MySkill</span>
+            <p class="cert-name">Data Story</p>
+            <span class="cert-year">2026</span>
+          </div>
+          <div class="cert-card reveal-left" data-delay="400">
+            <span class="cert-issuer">MySkill</span>
+            <p class="cert-name">Understanding Business Process</p>
+            <span class="cert-year">2026</span>
+          </div>
+          <div class="cert-card reveal-left" data-delay="450">
+            <span class="cert-issuer">MySkill</span>
+            <p class="cert-name">Front-End Development Introduction</p>
+            <span class="cert-year">2026</span>
+          </div>
+          <div class="cert-card reveal-left" data-delay="500">
+            <span class="cert-issuer">MySkill</span>
+            <p class="cert-name">HTML Images and Formatted Text</p>
+            <span class="cert-year">2026</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal-left">
+          <p class="section-tag">Pengalaman</p>
+          <h2 class="section-title">Experi<span class="gold">ence</span></h2>
+        </div>
+
+        <div class="tabs reveal-left" data-delay="100">
+          <button class="tab-btn active" data-tab="magang">Magang &amp; Proyek</button>
+          <button class="tab-btn" data-tab="organisasi">Kepanitiaan</button>
+        </div>
+
+        <!-- Magang & Proyek -->
+        <div class="timeline tab-panel active" id="tab-magang">
+          <article class="tl-item reveal-left" data-delay="100">
+            <span class="tl-dot"></span>
+            <div class="tl-card">
+              <div class="tl-head">
+                <div>
+                  <h3 class="tl-role">Enterprise Architecture Solution</h3>
+                  <p class="tl-company">PT. Kawasan Industri Medan</p>
+                </div>
+                <span class="pill">Januari 2026 — Mei 2026</span>
+              </div>
+              <ul class="tl-list">
+                <li>Identifikasi kondisi eksisting dan permasalahan perusahaan.</li>
+                <li>Perancangan Enterprise Architecture menggunakan <strong>TOGAF ADM</strong>.</li>
+                <li>Analisis <em>gap</em> dan penyusunan <em>targetting</em>.</li>
+                <li>Penyusunan roadmap rekomendasi pengembangan.</li>
+                <li>Penyesuaian dengan regulasi dan standar pemerintah.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="tag">TOGAF ADM</span><span class="tag">Gap Analysis</span><span class="tag">IT Roadmap</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="tl-item reveal-left" data-delay="200">
+            <span class="tl-dot"></span>
+            <div class="tl-card">
+              <div class="tl-head">
+                <div>
+                  <h3 class="tl-role">IT Analyst</h3>
+                  <p class="tl-company">PT. Protea Realty</p>
+                </div>
+                <span class="pill">Agustus 2025 — Desember 2025</span>
+              </div>
+              <ul class="tl-list">
+                <li>Menganalisis proses bisnis dan kebutuhan sistem.</li>
+                <li>Memodelkan proses <em>As-Is</em> dan <em>To-Be</em> menggunakan <strong>BPMN</strong>.</li>
+                <li>Merancang arsitektur dan tata kelola sistem berbasis <strong>COBIT 2019</strong>.</li>
+                <li>Merancang kontrol akses dan keamanan sistem.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="tag">BPMN</span><span class="tag">COBIT 2019</span><span class="tag">IT Governance</span><span class="tag">Access Control</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="tl-item reveal-left" data-delay="300">
+            <span class="tl-dot"></span>
+            <div class="tl-card">
+              <div class="tl-head">
+                <div>
+                  <h3 class="tl-role">Business Analyst</h3>
+                  <p class="tl-company">PT. Bank Rakyat Indonesia (Persero) Tbk</p>
+                </div>
+                <span class="pill">Juni 2025 — Agustus 2025</span>
+              </div>
+              <ul class="tl-list">
+                <li>Menganalisis dan memahami proses bisnis pada Divisi Mikro Bisnis.</li>
+                <li>Mengidentifikasi kebutuhan bisnis dan kebutuhan pengguna.</li>
+                <li>Mengidentifikasi permasalahan dan <em>gap</em> pada proses bisnis.</li>
+                <li>Menganalisis alur proses dan kebutuhan integrasi data.</li>
+                <li>Menerjemahkan kebutuhan bisnis menjadi kebutuhan sistem.</li>
+                <li>Menyusun rekomendasi solusi berdasarkan hasil analisis proses bisnis.</li>
+                <li>Merancang solusi <strong>Daily Report Planning</strong> sesuai kebutuhan pengguna.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="tag">Business Analysis</span><span class="tag">Requirement Gathering</span><span class="tag">Data Integration</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Kepanitiaan -->
+        <div class="timeline tab-panel" id="tab-organisasi">
+          <article class="tl-item reveal-left" data-delay="100">
+            <span class="tl-dot"></span>
+            <div class="tl-card">
+              <div class="tl-head">
+                <div>
+                  <h3 class="tl-role">Steering Committee</h3>
+                  <p class="tl-company">HASTJA — Himpunan Alumni SMK Telkom Jakarta</p>
+                </div>
+                <span class="pill">September 2024 — September 2025</span>
+              </div>
+              <ul class="tl-list">
+                <li>Mengawasi kinerja Divisi Acara dalam pelaksanaan kegiatan.</li>
+                <li>Memberikan arahan, masukan, dan evaluasi kepada anggota Divisi Acara.</li>
+                <li>Membantu menyelesaikan permasalahan selama pelaksanaan kegiatan.</li>
+              </ul>
+              <div class="tag-row"><span class="tag">Supervisi</span><span class="tag">Evaluasi</span></div>
+            </div>
+          </article>
+
+          <article class="tl-item reveal-left" data-delay="200">
+            <span class="tl-dot"></span>
+            <div class="tl-card">
+              <div class="tl-head">
+                <div>
+                  <h3 class="tl-role">Ketua Pelaksana TRUSTY</h3>
+                  <p class="tl-company">HASTJA — Himpunan Alumni SMK Telkom Jakarta</p>
+                </div>
+                <span class="pill">September 2023 — September 2024</span>
+              </div>
+              <ul class="tl-list">
+                <li>Memimpin keseluruhan pelaksanaan kegiatan TRUSTY sesuai tujuan.</li>
+                <li>Berkoordinasi dengan berbagai divisi untuk memastikan ketercapaian rencana.</li>
+                <li>Memantau kinerja anggota serta memastikan pembagian tugas efektif.</li>
+                <li>Menetapkan keputusan dan kebijakan strategis dari perencanaan hingga pelaksanaan.</li>
+              </ul>
+              <div class="tag-row"><span class="tag">Leadership</span><span class="tag">Koordinasi</span><span class="tag">Decision Making</span></div>
+            </div>
+          </article>
+
+          <article class="tl-item reveal-left" data-delay="300">
+            <span class="tl-dot"></span>
+            <div class="tl-card">
+              <div class="tl-head">
+                <div>
+                  <h3 class="tl-role">Staff Divisi Acara</h3>
+                  <p class="tl-company">HASTJA — Himpunan Alumni SMK Telkom Jakarta</p>
+                </div>
+                <span class="pill">September 2022 — September 2023</span>
+              </div>
+              <ul class="tl-list">
+                <li>Merancang konsep kegiatan untuk program Seminar dan Grand Event TRUSTY.</li>
+                <li>Berkoordinasi dengan tim dalam menyusun perencanaan dan pelaksanaan kegiatan.</li>
+              </ul>
+              <div class="tag-row"><span class="tag">Event Concept</span><span class="tag">Teamwork</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal-left">
+          <p class="section-tag">Keterampilan</p>
+          <h2 class="section-title">Sk<span class="gold">ills</span></h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-block reveal-left" data-delay="100">
+            <h3 class="skill-title"><span class="gold">◆</span> Hard Skills</h3>
+            <ul class="skill-list">
+              <li>Analisis Proses Bisnis</li>
+              <li>Business Analysis</li>
+              <li>Enterprise Architecture</li>
+              <li>TOGAF ADM</li>
+              <li>Analisis &amp; Perancangan Sistem Informasi</li>
+              <li>Pemodelan Proses Bisnis (BPMN)</li>
+              <li>Rekayasa Proses Bisnis</li>
+              <li>IT Governance (COBIT 2019)</li>
+              <li>Manajemen Risiko Sistem Informasi</li>
+              <li>Audit &amp; Kontrol Sistem Informasi</li>
+              <li>Integrasi Aplikasi Enterprise</li>
+              <li>Manajemen Layanan Teknologi Informasi</li>
+              <li>Manajemen Proyek</li>
+              <li>Analisis Data dengan Microsoft Excel</li>
+              <li>SQL &amp; Basis Data</li>
+              <li>Pengembangan Sistem Berbasis Web</li>
+            </ul>
+
+            <h3 class="skill-title mt"><span class="gold">◆</span> Bahasa</h3>
+            <ul class="skill-list">
+              <li>Bahasa Indonesia</li>
+              <li>Bahasa Inggris</li>
+            </ul>
+          </div>
+
+          <div class="skill-block reveal-right" data-delay="200">
+            <h3 class="skill-title"><span class="gold">◆</span> Soft Skills</h3>
+            <div class="chip-cloud">
+              <span class="chip">Kepemimpinan</span>
+              <span class="chip">Berpikir Kritis</span>
+              <span class="chip">Analisis</span>
+              <span class="chip">Pemecahan Masalah</span>
+              <span class="chip">Komunikasi</span>
+              <span class="chip">Business Thinking</span>
+              <span class="chip">Kerja Tim</span>
+              <span class="chip">Manajemen Waktu</span>
+              <span class="chip">Pengambilan Keputusan</span>
+              <span class="chip">Adaptabilitas</span>
+              <span class="chip">Koordinasi</span>
+              <span class="chip">Stakeholder Management</span>
+            </div>
+
+            <h3 class="skill-title mt"><span class="gold">◆</span> Tools &amp; Software</h3>
+            <div class="tool-grid">
+              <div class="tool"><span class="tool-ic">📊</span> Microsoft Excel</div>
+              <div class="tool"><span class="tool-ic">📄</span> Word &amp; PowerPoint</div>
+              <div class="tool"><span class="tool-ic">🔷</span> Bizagi</div>
+              <div class="tool"><span class="tool-ic">🧩</span> Draw.io</div>
+              <div class="tool"><span class="tool-ic">🟣</span> Visual Paradigm</div>
+              <div class="tool"><span class="tool-ic">🗄️</span> SQL</div>
+              <div class="tool"><span class="tool-ic">🟨</span> JavaScript</div>
+              <div class="tool"><span class="tool-ic">🔺</span> Laravel</div>
+              <div class="tool"><span class="tool-ic">🎨</span> Canva</div>
+              <div class="tool"><span class="tool-ic">👥</span> Microsoft Teams</div>
+              <div class="tool"><span class="tool-ic">☁️</span> Google Workspace</div>
+              <div class="tool"><span class="tool-ic">🌐</span> HTML &amp; CSS</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal-left">
+          <p class="section-tag">Portofolio</p>
+          <h2 class="section-title">Pro<span class="gold">ject</span></h2>
+        </div>
+
+        <div class="project-grid">
+
+          <article class="project-card reveal-left" data-delay="100">
+            <div class="pc-thumb">
+              <span class="pc-emoji">🏗️</span>
+              <span class="pc-year">2026</span>
+            </div>
+            <div class="pc-body">
+              <p class="pc-type">Enterprise Architecture</p>
+              <h3 class="pc-title">Perancangan Enterprise Architecture PT. Kawasan Industri Medan</h3>
+              <p class="pc-desc">
+                Perancangan arsitektur enterprise menggunakan TOGAF ADM: identifikasi kondisi eksisting,
+                analisis gap As-Is → To-Be, penyusunan targetting, dan roadmap pengembangan yang
+                selaras dengan regulasi serta standar pemerintah.
+              </p>
+              <div class="tag-row">
+                <span class="tag">TOGAF ADM</span><span class="tag">Gap Analysis</span><span class="tag">Roadmap</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal-left" data-delay="200">
+            <div class="pc-thumb">
+              <span class="pc-emoji">🛡️</span>
+              <span class="pc-year">2025</span>
+            </div>
+            <div class="pc-body">
+              <p class="pc-type">IT Governance</p>
+              <h3 class="pc-title">Tata Kelola &amp; Arsitektur Sistem PT. Protea Realty</h3>
+              <p class="pc-desc">
+                Pemodelan proses bisnis As-Is dan To-Be dengan BPMN, perancangan arsitektur serta
+                tata kelola sistem berbasis COBIT 2019, dilengkapi rancangan kontrol akses dan
+                keamanan sistem.
+              </p>
+              <div class="tag-row">
+                <span class="tag">COBIT 2019</span><span class="tag">BPMN</span><span class="tag">Security Control</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal-left" data-delay="300">
+            <div class="pc-thumb">
+              <span class="pc-emoji">📈</span>
+              <span class="pc-year">2025</span>
+            </div>
+            <div class="pc-body">
+              <p class="pc-type">Business Analysis</p>
+              <h3 class="pc-title">Daily Report Planning — Divisi Mikro Bisnis BRI</h3>
+              <p class="pc-desc">
+                Analisis proses bisnis dan kebutuhan pengguna pada Divisi Mikro Bisnis, identifikasi
+                gap proses, analisis kebutuhan integrasi data, serta perancangan solusi
+                Daily Report Planning sesuai kebutuhan pengguna.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Requirement Analysis</span><span class="tag">Process Mapping</span><span class="tag">Solution Design</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal-left" data-delay="400">
+            <div class="pc-thumb">
+              <span class="pc-emoji">🎯</span>
+              <span class="pc-year">2024</span>
+            </div>
+            <div class="pc-body">
+              <p class="pc-type">Event Management</p>
+              <h3 class="pc-title">TRUSTY — Seminar &amp; Grand Event HASTJA</h3>
+              <p class="pc-desc">
+                Memimpin perencanaan hingga pelaksanaan kegiatan TRUSTY sebagai Ketua Pelaksana:
+                koordinasi lintas divisi, pemantauan kinerja anggota, dan pengambilan keputusan
+                strategis selama seluruh rangkaian acara.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Leadership</span><span class="tag">Project Management</span><span class="tag">Koordinasi</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head reveal-left">
+          <p class="section-tag">Kontak</p>
+          <h2 class="section-title">Con<span class="gold">tact</span></h2>
+          <p class="section-sub">
+            Terbuka untuk peluang kerja, kolaborasi proyek, maupun diskusi seputar
+            Enterprise Architecture &amp; Business Analysis.
+          </p>
+        </div>
+
+        <ul class="contact-list">
+          <li class="contact-item reveal-left" data-delay="100">
+            <span class="ci-ic">✉️</span>
+            <span class="ci-body">
+              <span class="ci-label">Email</span>
+              <a class="ci-value" href="mailto:kiki.baihaky1944@gmail.com">kiki.baihaky1944@gmail.com</a>
+            </span>
+          </li>
+          <li class="contact-item reveal-left" data-delay="180">
+            <span class="ci-ic">📱</span>
+            <span class="ci-body">
+              <span class="ci-label">Telepon / WhatsApp</span>
+              <a class="ci-value" href="tel:+6287880497439">087880497439</a>
+            </span>
+          </li>
+          <li class="contact-item reveal-left" data-delay="260">
+            <span class="ci-ic">in</span>
+            <span class="ci-body">
+              <span class="ci-label">LinkedIn</span>
+              <a class="ci-value" href="https://www.linkedin.com/in/rizky-baihakky" target="_blank" rel="noopener">Rizky-Baihakky</a>
+            </span>
+          </li>
+          <li class="contact-item reveal-left" data-delay="340">
+            <span class="ci-ic">📍</span>
+            <span class="ci-body">
+              <span class="ci-label">Lokasi</span>
+              <span class="ci-value">Jakarta Barat, Indonesia</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Rizky <span class="gold">Baihakky</span></p>
+    </div>
+  </footer>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Kembali ke atas">↑</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
